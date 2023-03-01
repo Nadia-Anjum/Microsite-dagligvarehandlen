@@ -1,0 +1,306 @@
+.headerpagetwooverskrift {
+  text-align: center;
+}
+
+.undertekstpagetwo {
+  text-align: center;
+  padding: 0 10rem;
+  margin-top: 1rem;
+}
+
+/*--- 1. sektion af 2 column øverst 1---*/
+
+.leftcontentcolumntwo1 {
+  margin-left: 2.5rem;
+  text-align: justify;
+}
+
+.leftcontentcolumntwo1 h2{
+  text-align: start
+}
+
+.image-container img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  bottom: -30px;
+  left: 40px;
+  width: 75%;
+  height: 100%;
+  background: #dcebf1;
+}
+
+/*--- 1. sektion af 2 column øverst 2---*/
+
+.leftcontentcolumntwo2 {
+  margin-right: 2.5rem;
+  text-align: justify;
+}
+
+.image-container2 img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.image-container2 {
+  position: relative;
+}
+
+.image-container2::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  bottom: -30px;
+  left: 35px;
+  width: 75%;
+  height: 100%;
+  background: #dcebf1;
+}
+
+/* --- KNAP ---- */
+
+.knapleftcontenttwo {
+  background-color: #e95255;
+  padding: 14px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.knapleftcontenttwo a {
+  color: white;
+  text-decoration: none;
+}
+
+.knapleftcontenttwo:hover {
+  background-color: #e77375;
+}
+
+.knapleftcontenttwosek4 {
+  background-color: #e95255;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.knapleftcontenttwosek4 a {
+  color: white;
+  text-decoration: none;
+}
+
+.knapleftcontenttwosek4:hover {
+  background-color: #e77375;
+}
+
+/* --- CARD - flere column i en anden baggrund---- */
+
+.containercard2 {
+  display: flex;
+  justify-content: center;
+}
+
+.cardtitel2 {
+  text-align: justify;
+}
+
+.cardtekst2 {
+  text-align: justify;
+}
+
+.cardsicon2:hover {
+  color: #e95255;
+}
+
+.card2hover {
+  border-color: #e95255;
+}
+
+.flerecolumn2page {
+  margin: 5rem 0;
+}
+
+.flerecol1{
+  text-align: justify;
+}
+
+.flerecol1 h2{
+  text-align: start;
+}
+
+/* --- flere column page 2 ---- */
+
+.flerecolumn2page {
+  color: white;
+}
+
+/* 3. sektion */
+
+.overskrift2part3 h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* 4. sektion */
+
+.sk4tekstdelcolumn{
+  text-align: justify;
+}
+
+
+
+@media (min-width: 1400px) {
+ 
+  .image-container::after {
+    bottom: -35px;
+    left: 70px;
+    width: 60%;
+    height: 100%;
+  }
+
+  .image-container2::after {
+    bottom: -35px;
+    left: 70px;
+    width: 60%;
+    height: 100%;
+  }
+
+
+  }
+
+@media (max-width: 1000px) {
+  .rowcard2 {
+    flex-direction: column;
+    display: grid;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .image-container img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .image-container::after {
+    bottom: -30px;
+    left: 130px;
+    width: 50%;
+    height: 100%;
+  }
+
+  .leftcontentcolumntwo1-col {
+    flex: 1 0 50%;
+  }
+
+  /* billede 2*/
+
+  .leftcontentcolumntwo1-col2 {
+    flex: 1 0 50%;
+  }
+
+  .image-container2 img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .image-container2 {
+    position: relative;
+  }
+
+  .image-container2::after {
+    bottom: -30px;
+    left: 130px;
+    width: 50%;
+    height: 100%;
+  }
+
+  .image-container2 {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .flerecolumnrow2page {
+    display: grid;
+    padding: 0 2rem;
+  }
+
+  .undertekstpagetwo {
+    padding: 0 4rem;
+  }
+
+  .sek4page2 {
+    flex-direction: column;
+    display: grid;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .image-container::after {
+    bottom: -30px;
+    left: 40px;
+    width: 70%;
+    height: 100%;
+  }
+
+  .image-container2 {
+    margin-bottom: 2rem;
+  }
+  .image-container2::after {
+    bottom: -30px;
+    left: 40px;
+    width: 70%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .image-container img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .image-container::after {
+    display: none;
+  }
+
+  .image-container2 img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .image-container2::after {
+    display: none;
+  }
+
+  .leftcontentcolumntwo1 {
+    margin-left: 0.5rem;
+  }
+
+  .leftcontentcolumntwo2 {
+    margin-left: 0.5rem;
+  }
+
+  .rowleftcontent2-2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

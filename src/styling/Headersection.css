@@ -1,0 +1,115 @@
+.headerOne {
+  background-color: #023146;
+}
+
+.headerhomeoverskrift {
+  text-align: start;
+  color: white;
+}
+
+.headerhomeunderoverskrift {
+  color: white;
+  font-size: 30px;
+
+}
+
+.forsideknapheader {
+  background-color: #e95255;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: -0.5rem;
+  cursor: pointer;
+}
+
+.forsideknap1 {
+  color: white;
+  text-decoration: none;
+}
+
+.forsideknapheader:hover {
+  background-color: #e77375;
+}
+
+.forsideknapheader a:hover {
+  color: white;
+}
+
+.headerbillede {
+  max-height: 530px;
+  overflow: hidden;
+}
+
+.forsideoverskriftheader1{
+padding-right: 0px !important;
+}
+
+.headerrow1{
+  --bs-gutter-x: 0rem;
+}
+
+@media (max-width: 1123px ) and (min-width: 992px ){
+  .headertoptekst {
+    padding-top: -3rem;
+  }
+
+}
+
+@media (max-width: 991px) {
+  .containerheader{
+    max-width: 1240px;
+  }
+
+  .forsidebilledeheader1{
+    width: auto;
+  }
+
+ .forsideoverskriftheader1{
+  width: auto;
+
+ }
+  
+  }
+
+
+
+  @media (min-width: 1400px) {
+    .headerhomeoverskrift h1{
+      font-size: 60px;
+    }
+
+    .headerhomeunderoverskrift {
+      font-size: 28px;
+    }
+
+    
+    }
+  
+
+    @media (max-width: 989px) {
+     .headerhomeunderoverskrift{
+      text-align: center;
+      font-size: 25px;
+     }
+
+     .headerhomeoverskrift h1{
+     text-align: center;
+     font-size: 40px;
+    }
+
+    .headerrow1{
+      display: inline;
+    }
+
+    .forsideoverskriftheader1{
+      text-align: center;
+      padding-bottom: 3rem;
+    }
+
+
+    
+     }
+      
+    
+    

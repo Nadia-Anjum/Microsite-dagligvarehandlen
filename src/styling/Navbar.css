@@ -1,0 +1,14 @@
+
+.navbarContainer a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbarContainer a:hover{
+    color: rgb(92, 92, 92);
+}
+
+.me-auto{
+display: flex;
+gap: 1em;
+}

@@ -1,0 +1,152 @@
+/* sektion med 2 billede og tekst under */
+
+.billede1page3 {
+  text-align: center;
+}
+
+.billede1page3:hover {
+  opacity: 80%;
+}
+
+.billede1page3 img {
+  object-fit: cover;
+}
+
+.billede2page3 {
+  text-align: center;
+}
+
+.billede2page3:hover {
+  opacity: 80%;
+}
+
+.billede2page3 img {
+  object-fit: cover;
+}
+
+.ptekstpagethree {
+  text-align: center;
+  max-width: 950px;
+  margin: auto;
+}
+
+.knapcontentpage3 {
+  background-color: #e95255;
+  padding: 14px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.knapcontentpage3 a {
+  color: white;
+  text-decoration: none;
+}
+
+.knapcontentpage3:hover {
+  background-color: #e77375;
+}
+
+/* sektion med 3 billede og tekst under */
+
+.sek3page3 {
+  margin-top: 2rem;
+}
+
+.colpage3 {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  min-width: 33.33%;
+}
+
+.p3Page3 {
+  padding: 30px;
+  padding-bottom: 0;
+  line-height: 1.7;
+  margin: -10px 0 0 70px;
+}
+
+.h2page3sek3 {
+  text-align: start;
+  margin-top: -1rem;
+}
+
+.h2page3sek3 h2 {
+  font-size: 25px;
+}
+
+.billedepage3 {
+  display: flex;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  object-fit: cover;
+}
+
+.p3-2Page3-2 {
+  padding: 30px;
+  padding-bottom: 0px;
+  padding-top: 0;
+  line-height: 1.7;
+  margin: 0 70px 10px 0;
+}
+
+.h2page3sek3-2 {
+  text-align: start;
+  margin-top: -1rem;
+}
+
+.h2page3sek3-2 h2 {
+  font-size: 25px;
+  padding-bottom: 25px;
+}
+
+.billedesek3page3 {
+  display: flex;
+  margin-left: auto;
+  margin-top: 2rem;
+  object-fit: cover;
+}
+
+.flerefarverpage3{
+  text-align: justify;
+}
+
+/* sektion tekst  */
+
+.sek4page3 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.rowflerecard{
+  text-align: justify;
+}
+
+.rowflerecard h2{
+  font-size: 28px;
+}
+
+
+@media (max-width: 950px) {
+  .colpage3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    min-width: 50%; 
+  }
+}
+
+@media (max-width: 675px) {
+  .colpage3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+  .h2page3sek3-2{
+    margin-top: 1rem !important;
+  }
+
+  
+}

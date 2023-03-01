@@ -1,0 +1,10 @@
+.footer{
+    background-color: #023146;
+    color: white;
+    padding: 1rem;
+}
+
+.list-unstyled a{
+    color: white;
+    text-decoration: none;
+}
